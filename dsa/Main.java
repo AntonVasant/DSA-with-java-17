@@ -2,10 +2,10 @@ package dsa;
 
 class Main {
     public static void main(String[] args) {
-         PriorityQueue pq = new PriorityQueue();
-         pq.enqueue(7);
-         pq.enqueue(9);
-         pq.enqueue(3);
-        System.out.println(pq);
+        String[] strings = {"flower","flow","fly"};
+        LongestPrefixStringArray longestPrefixStringArray = new LongestPrefixStringArray();
+        String res = longestPrefixStringArray.prefix(strings);
+        System.out.println(res);
+
     }
 }

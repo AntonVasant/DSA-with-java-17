@@ -10,6 +10,7 @@ public class PriorityQueue {
         if(count == item.length)
             throw  new IllegalStateException();
         int i;
+        //shifting elements from the back
         for(i =count-1;i>=0;i--) {
             if (item[i] > num)
                 item[i + 1] = item[i];
